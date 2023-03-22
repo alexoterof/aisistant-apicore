@@ -1,6 +1,8 @@
 package com.alexotero.aisistant.apicore.infrastructure.controllers
 
 import com.alexotero.aisistant.apicore.infrastructure.adapter.QueryRestAdapter
+import com.alexotero.aisistant.apicore.infrastructure.controllers.dto.QueryDTO
+import com.alexotero.aisistant.apicore.infrastructure.controllers.dto.QueryResponseDTO
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RestController

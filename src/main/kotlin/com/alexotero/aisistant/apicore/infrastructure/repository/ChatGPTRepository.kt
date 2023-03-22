@@ -5,8 +5,8 @@ import com.alexotero.aisistant.apicore.domain.chat.Interaction
 import com.alexotero.aisistant.apicore.domain.chat.Message
 import com.alexotero.aisistant.apicore.domain.chat.Role
 import com.alexotero.aisistant.apicore.infrastructure.clients.chat.ChatGPTClient
-import com.alexotero.aisistant.apicore.infrastructure.clients.chat.ChatMessageDTO
-import com.alexotero.aisistant.apicore.infrastructure.clients.chat.ChatRequestDTO
+import com.alexotero.aisistant.apicore.infrastructure.clients.chat.dto.ChatMessageDTO
+import com.alexotero.aisistant.apicore.infrastructure.clients.chat.dto.ChatRequestDTO
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Repository
 

@@ -2,7 +2,7 @@ package com.alexotero.aisistant.apicore.infrastructure.adapter
 
 import com.alexotero.aisistant.apicore.application.UserAsksChatGPTUseCase
 import com.alexotero.aisistant.apicore.domain.chat.*
-import com.alexotero.aisistant.apicore.infrastructure.controllers.QueryDTO
+import com.alexotero.aisistant.apicore.infrastructure.controllers.dto.QueryDTO
 import org.springframework.stereotype.Component
 
 @Component
